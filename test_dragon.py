@@ -34,18 +34,18 @@ class TestDragon(unittest.TestCase):
     @unittest.skip('Skipped Test')
     def test_dragons_are_born_hungry(self):
         dragon = Dragon('Canth', 'brown', "F'nor")
-        self.assertTrue(dragon.ishungry())
+        self.assertTrue(dragon.is_hungry())
 
     @unittest.skip('Skipped Test')
     def test_dragons_eat_a_lot(self):
         dragon = Dragon('Canth', 'brown', "F'nor")
-        self.assertTrue(dragon.ishungry())
+        self.assertTrue(dragon.is_hungry())
         dragon.eat()
-        self.assertTrue(dragon.ishungry())
+        self.assertTrue(dragon.is_hungry())
         dragon.eat()
-        self.assertTrue(dragon.ishungry())
+        self.assertTrue(dragon.is_hungry())
         dragon.eat()
-        self.assertFalse(dragon.ishungry())
+        self.assertFalse(dragon.is_hungry())
 
 if __name__ == '__main__':
     unittest.main()

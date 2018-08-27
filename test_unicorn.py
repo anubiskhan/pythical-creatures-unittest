@@ -10,15 +10,15 @@ class TestUnicorn(unittest.TestCase):
     def test_it_is_white_by_default(self):
         unicorn = Unicorn('Margaret')
         self.assertEqual(unicorn.color, 'White')
-        self.assertEqual(unicorn.iswhite(), True)
-        self.assertTrue(unicorn.iswhite())
+        self.assertEqual(unicorn.is_white(), True)
+        self.assertTrue(unicorn.is_white())
 
     @unittest.skip('Skipped Test')
     def test_it_does_not_have_to_be_white(self):
         unicorn = Unicorn('Barbara', 'purple')
         self.assertEqual(unicorn.color, 'purple')
-        self.assertEqual(unicorn.iswhite(), False)
-        self.assertFalse(unicorn.iswhite())
+        self.assertEqual(unicorn.is_white(), False)
+        self.assertFalse(unicorn.is_white())
 
     @unittest.skip('Skipped Test')
     def test_unicorn_says_sparkly_stuff(self):

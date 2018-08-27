@@ -24,13 +24,13 @@ class TestVampire(unittest.TestCase):
     @unittest.skip('Skipped Test')
     def test_it_is_thirsty_by_default(self):
         vampire = Vampire('Count von Count')
-        self.assertTrue(vampire.isthirsty())
+        self.assertTrue(vampire.is_thirsty())
 
     @unittest.skip('Skipped Test')
     def test_it_is_not_thirsty_after_drinking(self):
         vampire = Vampire('Elizabeth Bathory')
         vampire.drink()
-        self.assertFalse(vampire.isthirsty())
+        self.assertFalse(vampire.is_thirsty())
 
 if __name__ == '__main__':
     unittest.main()
