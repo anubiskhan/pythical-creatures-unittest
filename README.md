@@ -1,0 +1,1 @@
+Built as a Python duplication of [Turing School's](https://github.com/turingschool) [Ruby](https://github.com/turingschool/ruby-exercises/tree/master/mythical-creatures) and [Javascript](https://github.com/turingschool-examples/javascript-foundations/tree/master/mythical-creatures) Mythical Creature exercises. An excellent way to practice TDD.
