@@ -123,3 +123,6 @@ class TestCentaur(unittest.TestCentaur):
     @unittest.skip('Skipped Test')
     def test_gets_sick_if_drinks_potion_while_rested(self):
         # your code here
+
+if __name__ == '__main__':
+    unittest.main()
