@@ -1,4 +1,4 @@
-Built as a Python 3.7.0 duplication of [Turing School's](https://github.com/turingschool) Mythical Creature exercises([Ruby](https://github.com/turingschool/ruby-exercises/tree/master/mythical-creatures), [Javascript](https://github.com/turingschool-examples/javascript-foundations/tree/master/mythical-creatures)). An excellent way to practice TDD.
+Built as a Python 3.7.0 duplication of [Turing School's](https://github.com/turingschool) Mythical Creature exercises([Ruby](https://github.com/turingschool/ruby-exercises/tree/master/mythical-creatures), [Javascript](https://github.com/turingschool-examples/javascript-foundations/tree/master/mythical-creatures)). These exercises serve as an excellent way to practice TDD.
 
 This iteration utilizes the built in testing of Python's 'unittest'
 
@@ -12,15 +12,15 @@ A collection of exercises to practice Python and TDD
 
 In order to complete these exercises create a class for each of the mythical creatures that has a test file.
 
-Navigate to the `mythical-creatures` directory in your terminal, and then run your first test:
+Navigate to the `pythical-creatures` directory in your terminal, and then run your first test:
 
 ```
 python3 test_unicorn.py
 ```
 
-That will likely produce an error saying `ModuleNotFoundError: No module named 'creatures.hobbit'`.
+That will likely produce an error saying `ModuleNotFoundError: No module named 'creatures.unicorn'`.
 
-Otherwise, Create that file in the `creatures` directory (`touch creatures/unicorn.py`) and then run your test again. Continue to follow the errors that your test provides until the test passes. Then, unskip the next test by removing the line that says `@unittest.skip('Skipped Test')`. Continue until all tests pass for all creatures.
+Create that file in the `creatures` directory (`touch creatures/unicorn.py`) and then run your test again. Continue to follow the errors that your test provides until the test passes. Then, unskip the next test by removing the line that says `@unittest.skip('Skipped Test')`. Continue until all tests pass for all creatures.
 
 ## Suggested Order
 
