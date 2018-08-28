@@ -4,6 +4,9 @@ This iteration utilizes the built in testing of Python's 'unittest'
 
 I recommend using pdb([documentation](https://docs.python.org/3/library/pdb.html)) for debugging as you work through.
 
+##### Note
+The .gitignore file currently contains `/creatures/*.py`, which will keep your created creature classes from being pushed to GitHub. If you would like them pushed up (i.e. to submit this work to someone) simply delete the line. 
+
 # Pythical Creatures
 
 A collection of exercises to practice Python and TDD
