@@ -27,16 +27,19 @@ class TestMedusa(unittest.TestCase):
 
         self.assertFalse(victim.is_stoned())
         medusa.stare(victim)
-        assert victim.stoned?
         self.assertTrue(victim.is_stoned())
 
     @unittest.skip('Skipped Test')
     def test_can_only_have_three_victims(self):
-        # your code here
+        '''
+        your code here
+        '''
 
     @unittest.skip('Skipped Test')
     def test_if_a_fourth_victim_is_stoned_first_is_unstoned(self):
-        # your code here
+        '''
+        your code here
+        '''
 
 if __name__ == '__main__':
     unittest.main()
