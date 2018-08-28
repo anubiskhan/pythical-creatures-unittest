@@ -39,19 +39,25 @@ class TestPirate(unittest.TestCase):
 
     @unittest.skip('Skipped Test')
     def test_a_pirate_can_rob_ships(self):
-        # create a pirate
-        # check that a pirate has a rob_ship method
+        '''
+        create a pirate
+        check that a pirate has a rob_ship method
+        '''
 
     @unittest.skip('Skipped Test')
     def test_a_pirate_has_booty(self):
-        # create a pirate
-        # pirate starts with 0 booty
+        '''
+        create a pirate
+        pirate starts with 0 booty
+        '''
 
     @unittest.skip('Skipped Test')
     def test_a_pirate_gets_100_booty_for_robbon(self):
-        # create a pirate
-        # pirate robs ship
-        # check pirate has 100 booty
+        '''
+        create a pirate
+        pirate robs ship
+        check pirate has 100 booty
+        '''
 
 if __name__ == '__main__':
     unittest.main()
