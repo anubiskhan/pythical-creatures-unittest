@@ -37,3 +37,6 @@ class TestMedusa(unittest.TestCase):
     @unittest.skip('Skipped Test')
     def test_if_a_fourth_victim_is_stoned_first_is_unstoned(self):
         # your code here
+
+if __name__ == '__main__':
+    unittest.main()
