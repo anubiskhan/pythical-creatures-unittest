@@ -47,11 +47,15 @@ class TestWerewolf(unittest.TestCase):
 
     @unittest.skip('Skipped Test')
     def test_is_not_hungry_by_default(self):
-        # your code here
+        '''
+        your code here
+        '''
 
     @unittest.skip('Skipped Test')
     def test_becomes_hungry_after_changing_to_a_werewolf(self):
-        # your code here
+        '''
+        your code here
+        '''
 
     class Victim:
         def __init__(self):
@@ -59,19 +63,27 @@ class TestWerewolf(unittest.TestCase):
 
     @unittest.skip('Skipped Test')
     def test_consumes_a_victim(self):
-        # your code here
+        '''
+        your code here
+        '''
 
     @unittest.skip('Skipped Test')
     def test_cannot_consume_victim_if_in_human_form(self):
-        # your code here
+        '''
+        your code here
+        '''
 
     @unittest.skip('Skipped Test')
     def test_a_werewolf_who_has_consumed_a_victim_is_no_longer_hungry(self):
-        # your code here
+        '''
+        your code here
+        '''
 
     @unittest.skip('Skipped Test')
     def test_a_werewolf_who_has_consumed_a_victim_makes_the_victim_dead(self):
-        # your code here
+        '''
+        your code here
+        '''
 
 if __name__ == '__main__':
     unittest.main()
