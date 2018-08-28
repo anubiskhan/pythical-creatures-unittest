@@ -18,36 +18,42 @@ class TestWizard(unittest.TestCase):
 
     @unittest.skip('Skipped Test')
     def test_is_not_always_bearded(self):
-        wizard = Wizard('Valerie', 'bearded': False)
+        wizard = Wizard('Valerie', {'bearded': False})
         self.assertFalse(wizard.is_bearded())
 
     @unittest.skip('Skipped Test')
     def test_has_root_powers(self):
-        wizard = Wizard('Sarah', 'bearded': False)
+        wizard = Wizard('Sarah', {'bearded': False})
         self.assertEqual(wizard.incantation('chown ~/bin'), 'sudo chown ~/bin')
 
     @unittest.skip('Skipped Test')
     def test_has_lots_of_root_powers(self):
-        wizard = Wizard('Rob', 'bearded': False)
+        wizard = Wizard('Rob', {'bearded': False})
         self.assertEqual(wizard.incantation('rm -rf /home/mirandax'), 'sudo rm -rf /home/mirandax')
 
     @unittest.skip('Skipped Test')
     def test_starts_rested(self):
-        # create wizard
-        # .is_rested() returns true
+        '''
+        create wizard
+        .is_rested() returns true
+        '''
 
     @unittest.skip('Skipped Test')
     def test_can_cast_spells(self):
-        # create wizard
-        # .cast() returns 'MAGIC MISSILE!'
+        '''
+        create wizard
+        .cast() returns 'MAGIC MISSILE!'
+        '''
 
     @unittest.skip('Skipped Test')
     def test_gets_tired_after_casting_three_spells(self):
-        # create wizard
-        # casts spell twice
-        # check wizard is rested
-        # casts spell
-        # check wizard is not rested
+        '''
+        create wizard
+        casts spell twice
+        check wizard is rested
+        casts spell
+        check wizard is not rested
+        '''
 
 if __name__ == '__main__':
     unittest.main()
