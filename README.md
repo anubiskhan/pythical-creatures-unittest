@@ -1,4 +1,4 @@
-Built as a Python 3.7.0 duplication of [Turing School's](https://github.com/turingschool) Mythical Creature exercises([Ruby](https://github.com/turingschool/ruby-exercises/tree/master/mythical-creatures), [Javascript](https://github.com/turingschool-examples/javascript-foundations/tree/master/mythical-creatures)). These exercises serve as an excellent way to practice TDD.
+Built as a Python 3.7.0 duplication of [Turing School's](https://github.com/turingschool) Mythical Creature exercises([Ruby](https://github.com/turingschool/ruby-exercises/tree/master/mythical-creatures), [Javascript](https://github.com/turingschool-examples/javascript-foundations/tree/master/mythical-creatures)). These exercises serve as an excellent way to practice TDD, Classes, and basic syntax.
 
 This iteration utilizes the built in testing of Python's 'unittest'
 
