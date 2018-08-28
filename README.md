@@ -4,6 +4,8 @@ This iteration utilizes the built in testing of Python's 'unittest'
 
 I recommend using pdb([documentation](https://docs.python.org/3/library/pdb.html)) for debugging as you work through.
 
+The recommended order can be found below.
+
 ##### Note
 The .gitignore file currently contains `/creatures/*.py`, which will keep your created creature classes from being pushed to GitHub. If you would like them pushed up (i.e. to submit this work to someone) simply delete the line. 
 
@@ -27,17 +29,23 @@ Create that file in the `creatures` directory (`touch creatures/unicorn.py`) and
 
 ## Suggested Order
 
-* `unicorn_test.rb`
-* `vampire_test.rb`
-* `dragon_test.rb`
-* `hobbit_test.rb`
-* `pirate_test.rb`
-* `wizard_test.rb`
-* `medusa_test.rb`
-* `werewolf_test.rb`
-* `centaur_test.rb`
+* `test_unicorn.py`
+* `test_vampire.py`
+* `test_dragon.py`
+* `test_hobbit.py`
+* `test_pirate.py`
+* `test_wizard.py`
+* `test_medusa.py`
+* `test_werewolf.py`
+* `test_centaur.py`
 
 ## Extra Challenges
+Coming soon!
+
+* `test_direwolf.py`
+* `test_fairy.py`
+* `test_ogre.py`
+* `test_sphinx.py`
 
 ### Testing with pytest
 
