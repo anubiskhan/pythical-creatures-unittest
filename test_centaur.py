@@ -89,7 +89,6 @@ class TestCentaur(unittest.TestCentaur):
         centaur = Centaur('George','Palomino')
         centaur.lay_down()
         centaur.stand_up()
-        assert centaur.standing?
         self.assertTrue(centaur.is_standing())
 
     @unittest.skip('Skipped Test')
@@ -114,15 +113,21 @@ class TestCentaur(unittest.TestCentaur):
 
     @unittest.skip('Skipped Test')
     def test_becomes_rested_after_drinking_a_potion(self):
-        # your code here
+        '''
+        your code here
+        '''
 
     @unittest.skip('Skipped Test')
     def test_can_only_drink_potion_while_standing(self):
-        # your code here
+        '''
+        your code here
+        '''
 
     @unittest.skip('Skipped Test')
     def test_gets_sick_if_drinks_potion_while_rested(self):
-        # your code here
+        '''
+        your code here
+        '''
 
 if __name__ == '__main__':
     unittest.main()
