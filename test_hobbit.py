@@ -48,21 +48,28 @@ class TestHobbit(unittest.TestCase):
 
     @unittest.skip('Skipped Test')
     def test_is_old_at_age_of_101(self):
-        # create a hobbit
-        # have hobbit age 101 years
-        # check that hobbit.is_old() returns true
+        '''
+        create a hobbit
+        have hobbit age 101 years
+        check that hobbit.is_old() returns true
+        '''
+
 
     @unittest.skip('Skipped Test')
     def test_hobbit_has_the_ring_if_its_name_is_frodo(self):
-        # create a hobbit named Frodo
-        # create a second hobbit named Sam
-        # check that .has_ring() for Frodo returns true
-        # check that .has_ring() for Sam returns false
+        '''
+        create a hobbit named Frodo
+        create a second hobbit named Sam
+        check that .has_ring() for Frodo returns true
+        check that .has_ring() for Sam returns false
+        '''
 
     @unittest.skip('Skipped Test')
     def test_hobbits_are_short(self):
-        # create a hobbit
-        # check that .is_short() returns true
+        '''
+        create a hobbit
+        check that .is_short() returns true
+        '''
 
 if __name__ == '__main__':
     unittest.main()
